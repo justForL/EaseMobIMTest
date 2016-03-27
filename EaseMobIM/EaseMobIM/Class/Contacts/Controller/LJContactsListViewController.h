@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LJContactsViewController : UIViewController
+@interface LJContactsListViewController : UIViewController
 
 @end

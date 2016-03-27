@@ -26,25 +26,28 @@
     //注册通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRootViewController) name:kIsChangeRootViewController object:nil];
     
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //如果开启自动登录,直接设置根控制器为主页面
     if ([[EaseMob sharedInstance].chatManager isAutoLoginEnabled]) {
-        self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        
         //主页面
         LJBaseTabBarController *tabBarVc = [[LJBaseTabBarController alloc]init];
         self.window.rootViewController = tabBarVc;
-        [[EaseMob sharedInstance].chatManager asyncFetchBuddyList];
-        [self.window makeKeyAndVisible];
-        return YES;
 
     }else {
+        
     [self changeRootViewController];
+        
     }
+    //获取好友列表
+    [[EaseMob sharedInstance].chatManager asyncFetchBuddyList];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
 
 - (void)changeRootViewController {
-    
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     LJLoginTool *tool =[LJLoginTool shared];
     [tool loginOrNot];
@@ -53,19 +56,17 @@
         //主页面
         LJBaseTabBarController *tabBarVc = [[LJBaseTabBarController alloc]init];
         self.window.rootViewController = tabBarVc;
-        [[EaseMob sharedInstance].chatManager asyncFetchBuddyList];
+        
     }else {
         //登录界面
         UIStoryboard *sb = [UIStoryboard storyboardWithName:@"LoginView" bundle:nil];
         UIViewController *vc = [sb instantiateInitialViewController];
         self.window.rootViewController = vc;
-        //获取好友列表
-        [[EaseMob sharedInstance].chatManager asyncFetchBuddyList];
         //移除通知
 //        [[NSNotificationCenter defaultCenter] removeObserver:self];
     }
     
-    [self.window makeKeyAndVisible];
+    
 
 }
 

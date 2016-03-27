@@ -12,7 +12,7 @@
 		1833DB691CA7D8E000386AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB681CA7D8E000386AAC /* Assets.xcassets */; };
 		1833DB6C1CA7D8E000386AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB6A1CA7D8E000386AAC /* LaunchScreen.storyboard */; };
 		1833DB961CA7D92C00386AAC /* LJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB771CA7D92C00386AAC /* LJBaseTabBarController.m */; };
-		1833DB971CA7D92C00386AAC /* LJContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */; };
+		1833DB971CA7D92C00386AAC /* LJContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB7D1CA7D92C00386AAC /* LJContactsListViewController.m */; };
 		1833DB981CA7D92C00386AAC /* LJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB831CA7D92C00386AAC /* LJHomeViewController.m */; };
 		1833DB991CA7D92C00386AAC /* LJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB8D1CA7D92C00386AAC /* LJMeViewController.m */; };
 		1833DB9A1CA7D92C00386AAC /* LJTimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB931CA7D92C00386AAC /* LJTimeLineViewController.m */; };
@@ -21,6 +21,7 @@
 		1833DBA41CA7E61D00386AAC /* LJLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBA31CA7E61D00386AAC /* LJLoginTool.m */; };
 		1833DBA71CA7FA1000386AAC /* LJLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBA61CA7FA1000386AAC /* LJLoginModel.m */; };
 		1833DBAB1CA7FA4600386AAC /* YHCoderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBAA1CA7FA4600386AAC /* YHCoderObject.m */; };
+		1833DBAE1CA81D6300386AAC /* LJConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBAD1CA81D6300386AAC /* LJConversationViewController.m */; };
 		77E7D40139A96A942CCCF49C /* Pods_EaseMobIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AA5766E1A95450E97F25E1 /* Pods_EaseMobIM.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +36,8 @@
 		1833DB6D1CA7D8E000386AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1833DB761CA7D92C00386AAC /* LJBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseTabBarController.h; sourceTree = "<group>"; };
 		1833DB771CA7D92C00386AAC /* LJBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseTabBarController.m; sourceTree = "<group>"; };
-		1833DB7C1CA7D92C00386AAC /* LJContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContactsViewController.h; sourceTree = "<group>"; };
-		1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContactsViewController.m; sourceTree = "<group>"; };
+		1833DB7C1CA7D92C00386AAC /* LJContactsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContactsListViewController.h; sourceTree = "<group>"; };
+		1833DB7D1CA7D92C00386AAC /* LJContactsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContactsListViewController.m; sourceTree = "<group>"; };
 		1833DB821CA7D92C00386AAC /* LJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHomeViewController.h; sourceTree = "<group>"; };
 		1833DB831CA7D92C00386AAC /* LJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHomeViewController.m; sourceTree = "<group>"; };
 		1833DB8C1CA7D92C00386AAC /* LJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMeViewController.h; sourceTree = "<group>"; };
@@ -53,6 +54,8 @@
 		1833DBA61CA7FA1000386AAC /* LJLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginModel.m; sourceTree = "<group>"; };
 		1833DBA91CA7FA4600386AAC /* YHCoderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCoderObject.h; sourceTree = "<group>"; };
 		1833DBAA1CA7FA4600386AAC /* YHCoderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCoderObject.m; sourceTree = "<group>"; };
+		1833DBAC1CA81D6300386AAC /* LJConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJConversationViewController.h; sourceTree = "<group>"; };
+		1833DBAD1CA81D6300386AAC /* LJConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJConversationViewController.m; sourceTree = "<group>"; };
 		4F232734A7D8CAF39652F164 /* Pods-EaseMobIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMobIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM.release.xcconfig"; sourceTree = "<group>"; };
 		7740E3982EFED6A063612DFB /* Pods-EaseMobIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMobIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,8 +173,10 @@
 		1833DB7B1CA7D92C00386AAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1833DB7C1CA7D92C00386AAC /* LJContactsViewController.h */,
-				1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */,
+				1833DB7C1CA7D92C00386AAC /* LJContactsListViewController.h */,
+				1833DB7D1CA7D92C00386AAC /* LJContactsListViewController.m */,
+				1833DBAC1CA81D6300386AAC /* LJConversationViewController.h */,
+				1833DBAD1CA81D6300386AAC /* LJConversationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -492,7 +497,8 @@
 				1833DB991CA7D92C00386AAC /* LJMeViewController.m in Sources */,
 				1833DBA71CA7FA1000386AAC /* LJLoginModel.m in Sources */,
 				1833DB9A1CA7D92C00386AAC /* LJTimeLineViewController.m in Sources */,
-				1833DB971CA7D92C00386AAC /* LJContactsViewController.m in Sources */,
+				1833DB971CA7D92C00386AAC /* LJContactsListViewController.m in Sources */,
+				1833DBAE1CA81D6300386AAC /* LJConversationViewController.m in Sources */,
 				1833DB611CA7D8E000386AAC /* AppDelegate.m in Sources */,
 				1833DB5E1CA7D8E000386AAC /* main.m in Sources */,
 			);

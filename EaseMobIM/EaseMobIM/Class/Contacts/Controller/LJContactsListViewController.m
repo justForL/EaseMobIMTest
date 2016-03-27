@@ -6,14 +6,15 @@
 //  Copyright © 2016年 Apple. All rights reserved.
 //
 
-#import "LJContactsViewController.h"
+#import "LJContactsListViewController.h"
+#import "LJConversationViewController.h"
 
-@interface LJContactsViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface LJContactsListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 
 @end
 
-@implementation LJContactsViewController {
+@implementation LJContactsListViewController {
     UITableView      *_tableView;
     NSArray          *_contacts;
 }
@@ -52,9 +53,23 @@
     
     cell.textLabel.text = emBuddy.username;
 
-    
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //取数组中的模型
+    EMBuddy *emBuddy = _contacts[indexPath.row];
+    
+    LJConversationViewController *conVC = [[LJConversationViewController alloc]init];
+    //设置标题
+    conVC.title = emBuddy.username;
+    //传递模型
+    conVC.emBuddy = emBuddy;
+    
+    conVC.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:conVC animated:YES];
+    
+}
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "LJBaseTabBarController.h"
-#import "LJContactsViewController.h"
+#import "LJContactsListViewController.h"
 #import "LJHomeViewController.h"
 #import "LJMeViewController.h"
 #import "LJTimeLineViewController.h"
@@ -39,7 +39,7 @@
     LJHomeViewController *homeVC = [[LJHomeViewController alloc]init];
     [self EmbedNavigationController:homeVC title:@"首页"];
     
-    LJContactsViewController *contactsVC = [[LJContactsViewController alloc]init];
+    LJContactsListViewController *contactsVC = [[LJContactsListViewController alloc]init];
     [self EmbedNavigationController:contactsVC title:@"联系人"];
 
     LJTimeLineViewController *timeLineVC = [[LJTimeLineViewController alloc]init];
