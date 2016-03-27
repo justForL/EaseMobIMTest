@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YHCoderObject.h"
 
-@interface LJLoginModel : NSObject
-
+@interface LJLoginModel : YHCoderObject
+@property (nonatomic,copy)NSString *userName;
+@property (nonatomic,copy)NSString *passWord;
 @end

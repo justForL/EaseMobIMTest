@@ -9,23 +9,52 @@
 /* Begin PBXBuildFile section */
 		1833DB5E1CA7D8E000386AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB5D1CA7D8E000386AAC /* main.m */; };
 		1833DB611CA7D8E000386AAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB601CA7D8E000386AAC /* AppDelegate.m */; };
-		1833DB641CA7D8E000386AAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB631CA7D8E000386AAC /* ViewController.m */; };
-		1833DB671CA7D8E000386AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB651CA7D8E000386AAC /* Main.storyboard */; };
 		1833DB691CA7D8E000386AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB681CA7D8E000386AAC /* Assets.xcassets */; };
 		1833DB6C1CA7D8E000386AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB6A1CA7D8E000386AAC /* LaunchScreen.storyboard */; };
+		1833DB961CA7D92C00386AAC /* LJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB771CA7D92C00386AAC /* LJBaseTabBarController.m */; };
+		1833DB971CA7D92C00386AAC /* LJContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */; };
+		1833DB981CA7D92C00386AAC /* LJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB831CA7D92C00386AAC /* LJHomeViewController.m */; };
+		1833DB991CA7D92C00386AAC /* LJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB8D1CA7D92C00386AAC /* LJMeViewController.m */; };
+		1833DB9A1CA7D92C00386AAC /* LJTimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB931CA7D92C00386AAC /* LJTimeLineViewController.m */; };
+		1833DB9D1CA7DAAD00386AAC /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DB9C1CA7DAAD00386AAC /* LoginView.storyboard */; };
+		1833DBA01CA7DAD700386AAC /* LJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DB9F1CA7DAD700386AAC /* LJLoginViewController.m */; };
+		1833DBA41CA7E61D00386AAC /* LJLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBA31CA7E61D00386AAC /* LJLoginTool.m */; };
+		1833DBA71CA7FA1000386AAC /* LJLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBA61CA7FA1000386AAC /* LJLoginModel.m */; };
+		1833DBAB1CA7FA4600386AAC /* YHCoderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DBAA1CA7FA4600386AAC /* YHCoderObject.m */; };
+		77E7D40139A96A942CCCF49C /* Pods_EaseMobIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AA5766E1A95450E97F25E1 /* Pods_EaseMobIM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15AA5766E1A95450E97F25E1 /* Pods_EaseMobIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaseMobIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1833DB591CA7D8E000386AAC /* EaseMobIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseMobIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1833DB5D1CA7D8E000386AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1833DB5F1CA7D8E000386AAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1833DB601CA7D8E000386AAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1833DB621CA7D8E000386AAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1833DB631CA7D8E000386AAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1833DB661CA7D8E000386AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1833DB681CA7D8E000386AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1833DB6B1CA7D8E000386AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1833DB6D1CA7D8E000386AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833DB761CA7D92C00386AAC /* LJBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseTabBarController.h; sourceTree = "<group>"; };
+		1833DB771CA7D92C00386AAC /* LJBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseTabBarController.m; sourceTree = "<group>"; };
+		1833DB7C1CA7D92C00386AAC /* LJContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContactsViewController.h; sourceTree = "<group>"; };
+		1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContactsViewController.m; sourceTree = "<group>"; };
+		1833DB821CA7D92C00386AAC /* LJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHomeViewController.h; sourceTree = "<group>"; };
+		1833DB831CA7D92C00386AAC /* LJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHomeViewController.m; sourceTree = "<group>"; };
+		1833DB8C1CA7D92C00386AAC /* LJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMeViewController.h; sourceTree = "<group>"; };
+		1833DB8D1CA7D92C00386AAC /* LJMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMeViewController.m; sourceTree = "<group>"; };
+		1833DB921CA7D92C00386AAC /* LJTimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTimeLineViewController.h; sourceTree = "<group>"; };
+		1833DB931CA7D92C00386AAC /* LJTimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTimeLineViewController.m; sourceTree = "<group>"; };
+		1833DB9B1CA7D9AA00386AAC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1833DB9C1CA7DAAD00386AAC /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		1833DB9E1CA7DAD700386AAC /* LJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginViewController.h; sourceTree = "<group>"; };
+		1833DB9F1CA7DAD700386AAC /* LJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginViewController.m; sourceTree = "<group>"; };
+		1833DBA21CA7E61D00386AAC /* LJLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginTool.h; sourceTree = "<group>"; };
+		1833DBA31CA7E61D00386AAC /* LJLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginTool.m; sourceTree = "<group>"; };
+		1833DBA51CA7FA1000386AAC /* LJLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginModel.h; sourceTree = "<group>"; };
+		1833DBA61CA7FA1000386AAC /* LJLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginModel.m; sourceTree = "<group>"; };
+		1833DBA91CA7FA4600386AAC /* YHCoderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCoderObject.h; sourceTree = "<group>"; };
+		1833DBAA1CA7FA4600386AAC /* YHCoderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCoderObject.m; sourceTree = "<group>"; };
+		4F232734A7D8CAF39652F164 /* Pods-EaseMobIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMobIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM.release.xcconfig"; sourceTree = "<group>"; };
+		7740E3982EFED6A063612DFB /* Pods-EaseMobIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMobIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E7D40139A96A942CCCF49C /* Pods_EaseMobIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,8 @@
 			children = (
 				1833DB5B1CA7D8E000386AAC /* EaseMobIM */,
 				1833DB5A1CA7D8E000386AAC /* Products */,
+				4D75D819EECC358D9EFEC002 /* Pods */,
+				76749AD75E80325755A32282 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +90,7 @@
 		1833DB5B1CA7D8E000386AAC /* EaseMobIM */ = {
 			isa = PBXGroup;
 			children = (
-				1833DB5F1CA7D8E000386AAC /* AppDelegate.h */,
-				1833DB601CA7D8E000386AAC /* AppDelegate.m */,
-				1833DB621CA7D8E000386AAC /* ViewController.h */,
-				1833DB631CA7D8E000386AAC /* ViewController.m */,
-				1833DB651CA7D8E000386AAC /* Main.storyboard */,
-				1833DB681CA7D8E000386AAC /* Assets.xcassets */,
-				1833DB6A1CA7D8E000386AAC /* LaunchScreen.storyboard */,
-				1833DB6D1CA7D8E000386AAC /* Info.plist */,
+				1833DB731CA7D92C00386AAC /* Class */,
 				1833DB5C1CA7D8E000386AAC /* Supporting Files */,
 			);
 			path = EaseMobIM;
@@ -75,8 +100,265 @@
 			isa = PBXGroup;
 			children = (
 				1833DB5D1CA7D8E000386AAC /* main.m */,
+				1833DB6D1CA7D8E000386AAC /* Info.plist */,
+				1833DB6A1CA7D8E000386AAC /* LaunchScreen.storyboard */,
+				1833DB681CA7D8E000386AAC /* Assets.xcassets */,
+				1833DB5F1CA7D8E000386AAC /* AppDelegate.h */,
+				1833DB601CA7D8E000386AAC /* AppDelegate.m */,
+				1833DB9B1CA7D9AA00386AAC /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1833DB731CA7D92C00386AAC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1833DBA11CA7E60C00386AAC /* Tools */,
+				1833DB741CA7D92C00386AAC /* Base */,
+				1833DB7A1CA7D92C00386AAC /* Contacts */,
+				1833DB801CA7D92C00386AAC /* Home */,
+				1833DB861CA7D92C00386AAC /* Login */,
+				1833DB8A1CA7D92C00386AAC /* Me */,
+				1833DB901CA7D92C00386AAC /* TimeLine */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1833DB741CA7D92C00386AAC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB751CA7D92C00386AAC /* Controller */,
+				1833DB781CA7D92C00386AAC /* Model */,
+				1833DB791CA7D92C00386AAC /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1833DB751CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB761CA7D92C00386AAC /* LJBaseTabBarController.h */,
+				1833DB771CA7D92C00386AAC /* LJBaseTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB781CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB791CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DB7A1CA7D92C00386AAC /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB7B1CA7D92C00386AAC /* Controller */,
+				1833DB7E1CA7D92C00386AAC /* Model */,
+				1833DB7F1CA7D92C00386AAC /* View */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		1833DB7B1CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB7C1CA7D92C00386AAC /* LJContactsViewController.h */,
+				1833DB7D1CA7D92C00386AAC /* LJContactsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB7E1CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB7F1CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DB801CA7D92C00386AAC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB811CA7D92C00386AAC /* Controller */,
+				1833DB841CA7D92C00386AAC /* Model */,
+				1833DB851CA7D92C00386AAC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1833DB811CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB821CA7D92C00386AAC /* LJHomeViewController.h */,
+				1833DB831CA7D92C00386AAC /* LJHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB841CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB851CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DB861CA7D92C00386AAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB871CA7D92C00386AAC /* Controller */,
+				1833DB881CA7D92C00386AAC /* Model */,
+				1833DB891CA7D92C00386AAC /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1833DB871CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB9E1CA7DAD700386AAC /* LJLoginViewController.h */,
+				1833DB9F1CA7DAD700386AAC /* LJLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB881CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1833DBA51CA7FA1000386AAC /* LJLoginModel.h */,
+				1833DBA61CA7FA1000386AAC /* LJLoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB891CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB9C1CA7DAAD00386AAC /* LoginView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DB8A1CA7D92C00386AAC /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB8B1CA7D92C00386AAC /* Controller */,
+				1833DB8E1CA7D92C00386AAC /* Model */,
+				1833DB8F1CA7D92C00386AAC /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1833DB8B1CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB8C1CA7D92C00386AAC /* LJMeViewController.h */,
+				1833DB8D1CA7D92C00386AAC /* LJMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB8E1CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB8F1CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DB901CA7D92C00386AAC /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB911CA7D92C00386AAC /* Controller */,
+				1833DB941CA7D92C00386AAC /* Model */,
+				1833DB951CA7D92C00386AAC /* View */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		1833DB911CA7D92C00386AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1833DB921CA7D92C00386AAC /* LJTimeLineViewController.h */,
+				1833DB931CA7D92C00386AAC /* LJTimeLineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1833DB941CA7D92C00386AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1833DB951CA7D92C00386AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1833DBA11CA7E60C00386AAC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1833DBA81CA7FA4600386AAC /* NSKeyedArchiver */,
+				1833DBA21CA7E61D00386AAC /* LJLoginTool.h */,
+				1833DBA31CA7E61D00386AAC /* LJLoginTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1833DBA81CA7FA4600386AAC /* NSKeyedArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				1833DBA91CA7FA4600386AAC /* YHCoderObject.h */,
+				1833DBAA1CA7FA4600386AAC /* YHCoderObject.m */,
+			);
+			path = NSKeyedArchiver;
+			sourceTree = "<group>";
+		};
+		4D75D819EECC358D9EFEC002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7740E3982EFED6A063612DFB /* Pods-EaseMobIM.debug.xcconfig */,
+				4F232734A7D8CAF39652F164 /* Pods-EaseMobIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76749AD75E80325755A32282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15AA5766E1A95450E97F25E1 /* Pods_EaseMobIM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +368,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1833DB701CA7D8E000386AAC /* Build configuration list for PBXNativeTarget "EaseMobIM" */;
 			buildPhases = (
+				F0F3731CE212C918CDD8861F /* Check Pods Manifest.lock */,
 				1833DB551CA7D8E000386AAC /* Sources */,
 				1833DB561CA7D8E000386AAC /* Frameworks */,
 				1833DB571CA7D8E000386AAC /* Resources */,
+				C208378ECBFB7FFA395D326C /* Embed Pods Frameworks */,
+				E679DCBA77EF2CA78526EFA8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +390,7 @@
 		1833DB511CA7D8E000386AAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
@@ -139,18 +425,74 @@
 			files = (
 				1833DB6C1CA7D8E000386AAC /* LaunchScreen.storyboard in Resources */,
 				1833DB691CA7D8E000386AAC /* Assets.xcassets in Resources */,
-				1833DB671CA7D8E000386AAC /* Main.storyboard in Resources */,
+				1833DB9D1CA7DAAD00386AAC /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C208378ECBFB7FFA395D326C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E679DCBA77EF2CA78526EFA8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseMobIM/Pods-EaseMobIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F3731CE212C918CDD8861F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1833DB551CA7D8E000386AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1833DB641CA7D8E000386AAC /* ViewController.m in Sources */,
+				1833DBA01CA7DAD700386AAC /* LJLoginViewController.m in Sources */,
+				1833DB981CA7D92C00386AAC /* LJHomeViewController.m in Sources */,
+				1833DB961CA7D92C00386AAC /* LJBaseTabBarController.m in Sources */,
+				1833DBA41CA7E61D00386AAC /* LJLoginTool.m in Sources */,
+				1833DBAB1CA7FA4600386AAC /* YHCoderObject.m in Sources */,
+				1833DB991CA7D92C00386AAC /* LJMeViewController.m in Sources */,
+				1833DBA71CA7FA1000386AAC /* LJLoginModel.m in Sources */,
+				1833DB9A1CA7D92C00386AAC /* LJTimeLineViewController.m in Sources */,
+				1833DB971CA7D92C00386AAC /* LJContactsViewController.m in Sources */,
 				1833DB611CA7D8E000386AAC /* AppDelegate.m in Sources */,
 				1833DB5E1CA7D8E000386AAC /* main.m in Sources */,
 			);
@@ -159,14 +501,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1833DB651CA7D8E000386AAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1833DB661CA7D8E000386AAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1833DB6A1CA7D8E000386AAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,8 +596,10 @@
 		};
 		1833DB711CA7D8E000386AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7740E3982EFED6A063612DFB /* Pods-EaseMobIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = EaseMobIM/PrefixHeader.pch;
 				INFOPLIST_FILE = EaseMobIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jg.EaseMobIM;
@@ -273,8 +609,10 @@
 		};
 		1833DB721CA7D8E000386AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F232734A7D8CAF39652F164 /* Pods-EaseMobIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = EaseMobIM/PrefixHeader.pch;
 				INFOPLIST_FILE = EaseMobIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jg.EaseMobIM;
@@ -301,6 +639,7 @@
 				1833DB721CA7D8E000386AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

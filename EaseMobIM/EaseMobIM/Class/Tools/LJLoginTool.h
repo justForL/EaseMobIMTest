@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface LJLoginTool : NSObject
+@property (nonatomic, assign) BOOL isLogin;
++ (instancetype)shared;
 
+- (void)loginOrNot;
+
+- (void)archiveRootObject:(id)object;
 @end
